@@ -1,0 +1,12 @@
+body {
+	color: red;
+}
+
+div.contents {
+	display: flex;
+}
+
+div.contents .content {
+	background: red;
+	padding: 20px;
+}

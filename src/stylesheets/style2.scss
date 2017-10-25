@@ -1,0 +1,19 @@
+body {
+	h1 {
+		font-style: italic;
+		font-weight: bold;
+		color: green;
+	}
+	.content:first-child {
+		transform: translateY(40%);
+	}
+	div.contents {
+		display: flex;
+	}
+
+	div.contents .content {
+		background: black;
+		padding: 24px;
+		color: white;
+	}
+}
